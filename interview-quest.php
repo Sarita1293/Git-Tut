@@ -1,6 +1,7 @@
 
 
-primarykey & unique key:
+ difference between primarykey & unique key:
+
 The primary key is accepted as a unique or sole identifier for every record in the table.
 When the primary key is not present in the table, then the unique key is also used as a unique identifier for records
 In the case of a primary key, we cannot save NULL values.
