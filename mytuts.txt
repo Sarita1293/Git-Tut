@@ -1,0 +1,129 @@
+
+Q. what is oops?
+A. 1) It converts real world entities/object into the programming language.
+	ex : animals,plants,car
+	Animals
+	Attribute: breed
+			   color
+	Behaviour: eat()
+			   getColor()
+			   
+	2) its purpose is to bind data and functions together.
+	3) we can reuse the code of one file into whole project wherever we want to use.
+	
+Q. what is Class?
+A. 1) class is user defined blueprint/prototype from which object are created.
+   2) class represents set of properties and methods which is common for its all objects.
+   
+   ex. if I have map or blueprint of flat then through that blueprint i will create n no of flats. so the map is class and the all flats are their objects.
+   
+   3)It does not occupy any space in memory but its object occupies.
+   
+   ex: class circle
+    Attribute : radius // they are also called class variables/instance variables/state
+				color
+	Behaviour : getRadius(); //they are also called class methods/instance method/behaviour
+				setColor();
+      
+   
+Q. what is object?
+A. 1)they are the instance of class or variable of class.
+   2)every object have its own data/properties/state and methods/functions/behaviour.
+   
+   the objects of class circle are ball, wheel, apple
+   ex:  1)ball
+		radius=14;
+		color=green;
+		
+		2)wheel
+		radius =50;
+		color=black;
+		
+		3)apple
+		radius=10;
+		color=red;
+		
+Q. key concepts/features of OOPS?
+A.  1)Encapsulation
+	2)Abstraction
+	3)Inheritance
+	4)Polymorphism
+	
+	1)Encapsulation : 
+					-> when we bind code and data together into one unit is called encapsulation and also data binding.
+					-> In encapsulation the data of one class is hide from other class.this is called Data hiding.
+					-> to implement encapsulation we use access modifiers : public, private,protected.
+	2)Abstraction   :
+					-> with abstraction we hide the complexity / internal working of objects.only shows essential details to user.
+					-> ex: we use mobile and camera we click pictures but we dont know the internal process we only see the output.
+					-> we implement Abstraction through Abstract class and interface.
+	3)Inheritance	:
+					-> when one class acquires the properties & methods of parent class then it is called inheritance.
+					-> through inheritance, we create new class from parent/base class and inherit all their features.
+					-> it gives the benefits of code reusability.
+	4)Polymorphism  :
+					-> means having many forms.
+					-> we achieve polymorphism using method overloading and method overriding.
+					->it makes the process easy becaus ethe object automatically calls the respected method by checking the parameter of functions.
+					ex. class circle{
+						float radius;string color;
+						
+						findArea(int r);
+						findArea(int l, int b);
+					}
+					
+					$obj = new circle();
+					$obj->findArea(12);//it will call first function bacause we passes one value
+					
+Q. Method Overloading?
+A.  1)in method overloading , we can define functions of same name but pass different parameters.
+ex: findArea(int radius) //for circle
+	findArea(int length, int breadth) //for square, rectangle
+	
+Q. Method Overriding?
+A.	1)In child class square , if find Area function will do its own calculation then it will override the base class findArea function.
+ex. class shape  //base class
+attribute: name, color
+Behaviour: findArea(), findPerimeter()
+
+class Square // child class
+Attribute: name,color
+Behaviour: findArea()
+
+Q. Magic methods in php?
+A.  1)Magic methods are called bydefault  and it starts with double underscore(__)as suffix.
+	2)the different types of magic methods are as follows:
+		-> __construct()      -> __clone()
+		-> __destruct()	      -> __wakeup()
+		-> __get()	      -> __sleep()
+		-> __set()	      -> __call()
+		-> __isset()	      -> __callstatic()
+		-> __unset()	      -> __tostring()
+		-> __autoload()	      -> __invoke()
+		
+   
+Q: what is inheritance, how many type of inheritance are used in php?
+Q: define constructor & destructor?
+
+difference between -> require and include, $ and $$, innodb, laravel how to install laravel
+array functions, array string, create alter
+	
+
+
+in swifty we have used api to get the details from backend and show it in frontend (in html) using curl. we have created different different end points or api's
+	
+	
+
+in which scenario we will use encapsulation,abstration, polymorphism, inheritance
+why we use static function why we use construct destruct call magic methods
+what is namespaces why we use it
+what is session and cookie if we delete cookie will session know the user?
+what is factories in laravel
+what is traits
+what is abstraction, interfaces, 
+is methodoverloading is possible in php? why?? how we can achieve methodoverloading in php
+what is type casting
+what is indexing, triggger, 
+
+
+
