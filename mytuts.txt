@@ -1,10 +1,10 @@
 
 Q. what is oops?
 A. 1) It converts real world entities/object into the programming language.
-	ex : animals,plants,car
+	example : animals,plants,car
 	Animals
 	Attribute: breed
-			   color
+			color
 	Behaviour: eat()
 			   getColor()
 			   
@@ -23,7 +23,7 @@ A. 1) class is user defined blueprint/prototype from which object are created.
     Attribute : radius // they are also called class variables/instance variables/state
 				color
 	Behaviour : getRadius(); //they are also called class methods/instance method/behaviour
-				setColor();
+		setColor();
       
    
 Q. what is object?
